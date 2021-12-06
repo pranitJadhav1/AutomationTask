@@ -20,8 +20,9 @@ Generate Eclipse workspace using command:
 mvn clean eclipse:eclipse
 ```
 
-### Run tests
-```
-mvn clean test -Dsuite=api
+### Start selenium server
+
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.141.59.jar
+
 ```
 
